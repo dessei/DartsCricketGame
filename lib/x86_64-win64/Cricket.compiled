@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="E:\Prog\lazarus\fpc\3.2.2\bin\x86_64-win64\fpc.exe" Date="1556502373"/>
+  <Params Value="-MObjFPC -Scghi -O1 -gw2 -godwarfsets -gl -WG -l -vewnhibq &quot;-FiD:\Mt109\Documents\LZR Projects\EdgarTVCricket\lib\x86_64-win64&quot; &quot;-FuD:\Mt109\Documents\LZR Projects\EdgarTVCricket\&quot; -FuE:\Prog\lazarus\lcl\units\x86_64-win64\win32 -FuE:\Prog\lazarus\lcl\units\x86_64-win64 -FuE:\Prog\lazarus\components\freetype\lib\x86_64-win64 -FuE:\Prog\lazarus\components\lazutils\lib\x86_64-win64 -FuE:\Prog\lazarus\packager\units\x86_64-win64 &quot;-FUD:\Mt109\Documents\LZR Projects\EdgarTVCricket\lib\x86_64-win64\&quot; &quot;-FED:\Mt109\Documents\LZR Projects\EdgarTVCricket\&quot; &quot;-oD:\Mt109\Documents\LZR Projects\EdgarTVCricket\Cricket.exe&quot; -dLCL -dLCLwin32 Cricket.lpr"/>
+</CONFIG>

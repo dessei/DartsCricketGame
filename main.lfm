@@ -1,0 +1,403 @@
+object Cricket_Game: TCricket_Game
+  Left = 409
+  Height = 573
+  Top = 165
+  Width = 593
+  Caption = 'Cricket Game'
+  ClientHeight = 573
+  ClientWidth = 593
+  Color = 7337968
+  FormStyle = fsStayOnTop
+  LCLVersion = '4.8.0.0'
+  Visible = True
+  OnCreate = FormCreate
+  object Label1: TLabel
+    Left = 16
+    Height = 23
+    Top = 10
+    Width = 56
+    Alignment = taCenter
+    AutoSize = False
+    Caption = '20'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = 24
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OptimalFill = True
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 16
+    Height = 23
+    Top = 38
+    Width = 56
+    Alignment = taCenter
+    AutoSize = False
+    Caption = '19'
+    Font.Color = clBlack
+    Font.Height = 24
+    OptimalFill = True
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 16
+    Height = 23
+    Top = 64
+    Width = 56
+    Alignment = taCenter
+    AutoSize = False
+    Caption = '18'
+    Font.Color = clBlack
+    Font.Height = 24
+    OptimalFill = True
+    ParentFont = False
+  end
+  object Label4: TLabel
+    Left = 16
+    Height = 23
+    Top = 88
+    Width = 56
+    Alignment = taCenter
+    AutoSize = False
+    Caption = '17'
+    Font.Color = clBlack
+    Font.Height = 24
+    OptimalFill = True
+    ParentFont = False
+  end
+  object Label5: TLabel
+    Left = 16
+    Height = 23
+    Top = 112
+    Width = 56
+    Alignment = taCenter
+    AutoSize = False
+    Caption = '16'
+    Font.Color = clBlack
+    Font.Height = 24
+    OptimalFill = True
+    ParentFont = False
+  end
+  object Label6: TLabel
+    Left = 16
+    Height = 23
+    Top = 136
+    Width = 56
+    Alignment = taCenter
+    AutoSize = False
+    Caption = '15'
+    Font.Color = clBlack
+    Font.Height = 24
+    OptimalFill = True
+    ParentFont = False
+  end
+  object Label7: TLabel
+    Left = 16
+    Height = 23
+    Top = 160
+    Width = 56
+    Alignment = taCenter
+    AutoSize = False
+    Caption = '14'
+    Font.Color = clBlack
+    Font.Height = 24
+    OptimalFill = True
+    ParentFont = False
+  end
+  object Label8: TLabel
+    Left = 16
+    Height = 23
+    Top = 184
+    Width = 56
+    Alignment = taCenter
+    AutoSize = False
+    Caption = '13'
+    Font.Color = clBlack
+    Font.Height = 24
+    OptimalFill = True
+    ParentFont = False
+  end
+  object Label9: TLabel
+    Left = 16
+    Height = 23
+    Top = 208
+    Width = 56
+    Alignment = taCenter
+    AutoSize = False
+    Caption = '12'
+    Font.Color = clBlack
+    Font.Height = 24
+    OptimalFill = True
+    ParentFont = False
+  end
+  object Label10: TLabel
+    Left = 16
+    Height = 23
+    Top = 232
+    Width = 56
+    Alignment = taCenter
+    AutoSize = False
+    Caption = '11'
+    Font.Color = clBlack
+    Font.Height = 24
+    OptimalFill = True
+    ParentFont = False
+  end
+  object Label11: TLabel
+    Left = 16
+    Height = 23
+    Top = 256
+    Width = 56
+    Alignment = taCenter
+    AutoSize = False
+    Caption = '10'
+    Font.Color = clBlack
+    Font.Height = 24
+    OptimalFill = True
+    ParentFont = False
+  end
+  object Label12: TLabel
+    Left = 16
+    Height = 23
+    Top = 280
+    Width = 56
+    Alignment = taCenter
+    AutoSize = False
+    Caption = '9'
+    Font.Color = clBlack
+    Font.Height = 24
+    OptimalFill = True
+    ParentFont = False
+  end
+  object Label13: TLabel
+    Left = 16
+    Height = 23
+    Top = 304
+    Width = 56
+    Alignment = taCenter
+    AutoSize = False
+    Caption = '8'
+    Font.Color = clBlack
+    Font.Height = 24
+    OptimalFill = True
+    ParentFont = False
+  end
+  object Label14: TLabel
+    Left = 16
+    Height = 23
+    Top = 328
+    Width = 56
+    Alignment = taCenter
+    AutoSize = False
+    Caption = '7'
+    Font.Color = clBlack
+    Font.Height = 24
+    OptimalFill = True
+    ParentFont = False
+  end
+  object Label15: TLabel
+    Left = 16
+    Height = 23
+    Top = 352
+    Width = 56
+    Alignment = taCenter
+    AutoSize = False
+    Caption = '6'
+    Font.Color = clBlack
+    Font.Height = 24
+    OptimalFill = True
+    ParentFont = False
+  end
+  object Label16: TLabel
+    Left = 16
+    Height = 23
+    Top = 376
+    Width = 56
+    Alignment = taCenter
+    AutoSize = False
+    Caption = '5'
+    Font.Color = clBlack
+    Font.Height = 24
+    OptimalFill = True
+    ParentFont = False
+  end
+  object Label17: TLabel
+    Left = 16
+    Height = 23
+    Top = 400
+    Width = 56
+    Alignment = taCenter
+    AutoSize = False
+    Caption = '4'
+    Font.Color = clBlack
+    Font.Height = 24
+    OptimalFill = True
+    ParentFont = False
+  end
+  object Label18: TLabel
+    Left = 16
+    Height = 23
+    Top = 424
+    Width = 56
+    Alignment = taCenter
+    AutoSize = False
+    Caption = '3'
+    Font.Color = clBlack
+    Font.Height = 24
+    OptimalFill = True
+    ParentFont = False
+  end
+  object Label19: TLabel
+    Left = 16
+    Height = 23
+    Top = 448
+    Width = 56
+    Alignment = taCenter
+    AutoSize = False
+    Caption = '2'
+    Font.Color = clBlack
+    Font.Height = 24
+    OptimalFill = True
+    ParentFont = False
+  end
+  object Label20: TLabel
+    Left = 16
+    Height = 23
+    Top = 472
+    Width = 56
+    Alignment = taCenter
+    AutoSize = False
+    Caption = '1'
+    Font.Color = clBlack
+    Font.Height = 24
+    OptimalFill = True
+    ParentFont = False
+  end
+  object Bevel1: TBevel
+    Left = 8
+    Height = 498
+    Top = 8
+    Width = 72
+    Style = bsRaised
+  end
+  object Button1: TButton
+    Left = 8
+    Height = 48
+    Top = 512
+    Width = 256
+    Caption = 'NEW GAME'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -32
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 0
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Left = 216
+    Height = 49
+    Top = 120
+    Width = 112
+    Caption = 'Button2'
+    TabOrder = 1
+    Visible = False
+    OnClick = Button2Click
+  end
+  object Button3: TButton
+    Left = 216
+    Height = 49
+    Top = 184
+    Width = 112
+    Caption = 'Button3'
+    TabOrder = 2
+    Visible = False
+    OnClick = Button3Click
+  end
+  object Button4: TButton
+    Left = 216
+    Height = 49
+    Top = 248
+    Width = 112
+    Caption = 'Button4'
+    TabOrder = 3
+    Visible = False
+    OnClick = Button4Click
+  end
+  object Button5: TButton
+    Left = 344
+    Height = 49
+    Top = 184
+    Width = 112
+    Caption = 'Button5'
+    TabOrder = 4
+    Visible = False
+    OnClick = Button5Click
+  end
+  object Label21: TLabel
+    Left = 216
+    Height = 24
+    Top = 10
+    Width = 248
+    AutoSize = False
+    Caption = 'Throw Darts number 1 of 3'
+    Font.Height = 24
+    OptimalFill = True
+    ParentFont = False
+    Visible = False
+  end
+  object Label22: TLabel
+    Left = 216
+    Height = 24
+    Top = 56
+    Width = 248
+    AutoSize = False
+    Caption = 'Current Target: Bull'
+    Font.Height = 24
+    OptimalFill = True
+    ParentFont = False
+    Visible = False
+  end
+  object Label23: TLabel
+    Left = 216
+    Height = 48
+    Top = 312
+    Width = 376
+    AutoSize = False
+    Caption = 'Current Score: 0'
+    Font.Height = 49
+    OptimalFill = True
+    ParentFont = False
+    Visible = False
+  end
+  object Label24: TLabel
+    Left = 216
+    Height = 48
+    Top = 384
+    Width = 376
+    AutoSize = False
+    Caption = 'Session High Score: 0'
+    Font.Height = 49
+    OptimalFill = True
+    ParentFont = False
+  end
+  object AllTimeHighScore_Label: TLabel
+    Left = 88
+    Height = 56
+    Top = 440
+    Width = 504
+    AutoSize = False
+    Caption = 'All time high score: 0'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = 56
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OptimalFill = True
+    ParentFont = False
+    Visible = False
+    OnClick = AllTimeHighScore_LabelClick
+  end
+end
